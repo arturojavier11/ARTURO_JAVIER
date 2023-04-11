@@ -1,0 +1,230 @@
+*{margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+  
+}
+ nav p{
+    color: black; /* color de letra*/
+    /*background-color: rgba(236, 212, 2, 0.814);*/ /*color de caja*/
+    font-size: 20px;/*tamaño de texto*/
+    text-align: left;/*centrar texto*/
+    letter-spacing: 5px; /*separar letras*/
+    word-spacing: 10px; /*separa palabras*/
+    text-shadow: 5px 5px 5px black; /*le da una sombra al texto*/
+    font-weight: bold; /*negritas*/
+
+  }
+  nav{
+    display: flex; /*distribuye los elementos que tenga dentro*/
+    justify-content: space-between; 
+    align-items: center;
+    height: 30vh;
+    
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    
+
+
+
+   }
+  img{
+    width: 40%;
+
+  }
+   
+  a{
+     text-decoration:none ;
+    color: white;
+   border: solid 1px black;
+   background-color: black ;
+   padding:10px ;
+   border-radius:20px ;
+
+  }
+  li {
+      margin:20px;
+     list-style-type: none;
+      
+    
+    }
+     ul  {
+      display: flex;
+     
+      
+      }
+
+      /*termina barra de navegación*/
+
+    header
+    { 
+       background: linear-gradient(rgb(15, 74, 175),rgb(187, 211, 237));
+       height: 100vh;
+       width:  %;
+    }
+    .logo{
+      display: flex;
+      align-items: center;
+    }
+    .caja{
+      display: flex;
+      height: 70vh;
+      align-items: center;
+    }
+    .cajita{
+      width: 50%;
+      text-align: center;
+    }
+    .cajita img{
+      width: 50%;
+    }
+    h1{
+      font-size: 4em;
+
+    }
+    span{
+      color:aqua
+    }
+    .acerca{
+      width: 100%;
+      height: 80vh;
+      background: url(../img/blue-wave-abstract-background-vector-7c462c.png);
+      background-size: cover;
+    } 
+    .acerca2{
+      width: 50%;
+      height: 50vh;
+      background: linear-gradient(to right, rgba(73, 153, 222, 0.551),rgba(168, 208, 243, 0.437));
+      display: flex;
+      align-items: center;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      font-weight: bold;
+      text-align: justify;
+      padding: 0 20px;
+    }
+    .acerca1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 75vh;
+
+    }
+
+  a :hover{
+    background-color: brown;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 3em;
+  }
+    /*pseudoclase de tipo hover{}   
+     */
+
+.paralax{
+  width:100% ;
+  height: 50vh;
+  background: url(..//img/pexels-chirag-biyani-8568168.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+.paralax p{
+width: 60%;
+padding: 30%;
+text-align: center;
+font-size:3em;
+color: #fff;
+text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff ;
+}
+/*comienza seccion portafolio*/
+.portafolio{
+width: 100%;
+height: 100vh;
+background: url(../img/blue-wave-abstract-background-vector-7c462c1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+
+}
+.portafolio1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.portafolio2{
+  width: 60%;
+  height: 80vh;
+  border: solid;
+  
+
+}
+.portafolio2img{
+  width: 0px;
+  flex-grow: 1; /*agrrara el espaco que le corresponde*/
+  opacity: .8;
+  transition: ;
+  cursor: crosshair;
+
+}
+ 
+.portafolio2img:hover{
+  cursor: crosshair;
+  opacity: .1;
+}
+
+/*contacto*/
+
+.contacto{
+width:100% ;
+height: 80vh;
+background: linear-gradient(rgb(184, 210, 238),rgb(15, 74, 175));
+
+}
+
+.contacto1{
+width: 100%;
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.contacto2{
+  width: 100%;
+  height: 60vh;
+  background-color:(rgba(54, 132, 214, 0.534));
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  border: solid;
+  border-radius: 3px;
+}
+
+.boton{
+
+  
+}
+
+.icon{
+ 
+
+
+}
+
+
+
